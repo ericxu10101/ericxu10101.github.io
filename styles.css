@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0 0 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    header, section, footer {
+        padding: 10px;
+    }
+}
